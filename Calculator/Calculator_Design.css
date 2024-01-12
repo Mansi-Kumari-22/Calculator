@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+body {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#69a836 , #a53d60);
+}
+
+h1
+{
+font-size: 34px;
+margin-bottom: 20px;
+color: rgb(0, 0, 0);
+text-align:center;
+text-decoration: dashed;
+
+
+}
+
+.Calculator {
+    width: 300px;
+    text-align: center;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(0, 0, 0);
+    font-weight: 20px;
+    background: linear-gradient(#2196f3 , #e91e63);
+    box-shadow: 5px 5px 10px #b6acac,
+        -5px -5px 10px #faf4f4;
+}
+#Show {
+height: 70px;
+width: 250px;
+font-size: 30px;
+text-align:right;
+border-style: double;
+border-color: black;
+background-color:white;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    font-size: 18px;
+    font-weight: 20px;
+    border-radius: 10px;
+    border-color: black;
+    border-style: double;
+    background-color:aquamarine;
+    box-shadow: 5px 5px 10px #b6acac,
+        -5px -5px 10px #c0abab;
+   
+}
+button:active {
+    box-shadow: inset 1px 1px 2px #babecc,
+        inset -1px -1px 2px #fff;
+}
+
+#C{
+    background-color: rgba(213, 9, 9, 0.786);
+    color:black;
+}
+#opernd{
+   background-color: darksalmon;
+}
+  
